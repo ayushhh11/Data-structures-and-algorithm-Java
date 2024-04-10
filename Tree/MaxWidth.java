@@ -32,11 +32,11 @@ class MaxWidth{
                 //Make sure to have curr out from the queue
                 Node curr=q.poll();
                 if(curr.left != null){
-                    //Use curr only @ here
+                    //Use curr only @ here NOT root
                     q.add(curr.left);  
                 }
                 if(curr.right != null){
-                    //Use curr only @ here
+                    //Use curr only @ here NOT root
                     q.add(curr.right);
                 }
             }
